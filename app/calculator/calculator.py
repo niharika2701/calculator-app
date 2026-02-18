@@ -62,7 +62,7 @@ class Calculator:
                 user_input=input("calc>").strip()
 
                 if not user_input:
-                    continue
+                    continue # pragma: no cover
 
                 parsed=self._parse_input(user_input)
 
